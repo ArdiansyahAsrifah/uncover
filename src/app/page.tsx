@@ -660,9 +660,7 @@ export default function App() {
               className="flex items-center gap-2 cursor-pointer"
               onClick={() => { setView('landing'); setEmail(''); setAccounts([]); }}
             >
-              <div className="bg-indigo-600 p-2 rounded-lg text-white">
-                <img src="/logo_uncover.png" alt="Uncover" className="h-8 w-auto" />
-              </div>
+              <img src="/logo_uncover.png" alt="Uncover" className="h-10 w-10 rounded-xl object-cover" />
               <span className="text-xl font-bold text-slate-900 tracking-tight">Uncover</span>
             </div>
             {view === 'detail' && (
